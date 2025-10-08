@@ -1,25 +1,34 @@
-# HR Dashboard — Power BI
+# 📊 Key Insights from the HR Dashboard
+# 🧾 HR Dashboard (Power BI Project)
 
-## Overview
-An interactive **HR Dashboard** built in **Power BI** to track employee attendance, work-from-home (WFH) trends, and sick leave (SL). The dashboard helps HR teams monitor workforce engagement and quickly identify attendance patterns across dates and weekdays.
+## 📘 Project Overview
+This Power BI dashboard provides insights into employee attendance, work-from-home trends, and sick leave patterns from April to June 2022.  
+The goal is to help HR teams monitor workforce behavior and identify attendance trends.
 
-## Key Features
-- KPI tiles: Total working days, Present days, Present %, WFH %, SL count, SL %.  
-- Employee-level table: Present %, WFH %, SL % per employee.  
-- Trend charts: Present % by date, WFH % by date, SL % by date.  
-- Day-of-week summary tables for Present %, WFH %, and SL %.  
-- Month slicer to filter April / May / June 2022 (or other months if data updated).  
-- Responsive visuals and drill-through support (if enabled in PBIX).
+## 🛠️ Tools Used
+- Power BI  
+- Microsoft Excel (data source)  
+- DAX for calculated measures  
 
-## Demo / Preview
-![HR Dashboard Preview](images/dashboard_preview.png)
+## 📊 Key Insights from the HR Dashboard
+- **Total Working Days:** 4,439  
+- **Total Present Days:** 4,064  
+- **Average Attendance:** 91.55%  
+- **WFH %:** 11.15%  
+- **Sick Leave %:** 1.08%  
+- Attendance peaked at **96% in April**, dipped to **78% in May**, and recovered to **~90% in June**.  
+- **Fridays** have the **highest WFH (13.83%)** and **lowest Present % (90.08%)**, showing a clear end-of-week remote trend.  
+- **Monday** shows slightly higher sick leave usage (1.59%), suggesting extended weekends.  
 
+## 📅 Time Period
+April 2022 – June 2022
 
-## Data & Measures
-- Source: Attendance dataset (CSV/Excel) containing employee, date, attendance type (Present/SL/WFH/etc.), and other metadata.  
-- Important DAX measures (examples):
-  - `Present % = DIVIDE([Present Days], [Total Working Days], 0)`  
-  - `WFH % = DIVIDE([WFH Days], [Total Working Days], 0)`  
-  - `SL % = DIVIDE([SL Days], [Total Working Days], 0)`
+## 📈 Dashboard Preview
+![HR Dashboard Preview](resources/1.png)
+
+## 💡 Conclusion
+The HR Dashboard demonstrates that overall employee attendance is strong with balanced remote work practices.  
+Minor dips on Fridays and slight increases in Monday absences may help HR plan engagement or schedule flexibility programs.
+
 
 
