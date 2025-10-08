@@ -1,5 +1,7 @@
 # 📊 Key Insights from the HR Dashboard
-# 🧾 HR Dashboard (Power BI Project)
+
+🔗 **View the interactive Power BI dashboard here:**  
+👉 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTgxNzQ2NjYtNDYyNy00MDg3LWI2NDMtYzJiNzZiYTg1YTJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ## 📘 Project Overview
 This Power BI dashboard provides insights into employee attendance, work-from-home trends, and sick leave patterns from April to June 2022.  
