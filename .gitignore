@@ -1,0 +1,34 @@
+# Keep PBIX files, but ignore all others
+# Power BI
+*.pbix
+
+# Ignore intermediate/export files
+*.xlsx
+*.xls
+*.csv
+*.json
+*.log
+*.tmp
+*.bak
+
+# PDF files (optional: remove if you want PDFs in repo)
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Git temp files
+*.orig
+*.rej
+
+# Node / npm (if using scripts)
+node_modules/
+package-lock.json
+
+# Python scripts (if any)
+__pycache__/
+*.pyc

@@ -1,0 +1,20 @@
+* text=auto
+*.pbix binary
+*.pbit binary
+*.xlsx binary
+*.xlsm binary
+*.csv binary
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpg binary
+
+*.md text
+*.json text
+*.yml text
+*.yaml text
+*.txt text
+*.ps1 text
+*.sh text
+*.bat text eol=crlf
+*.sh text eol=lf
